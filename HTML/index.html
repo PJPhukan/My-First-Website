@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width:770px)" href="/CSS/responsive.css">
+    <link rel="stylesheet" media="screen and (max-width:587px)" href="/CSS/responsive-phone.css">
+    <script src="/JAVASCRIPT/project.js"></script>
+</head>
+
+<body>
+    <div class="home" id="home">
+        <div class="home-page">
+            <div class="logo">
+                <span class="p1">F</span><span class="p2">oo</span><span class="p1">dy</span>
+            </div>
+            <div class="navigation">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li ><a href="#feature" class="Feature">Feature</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#client">Client</a></li>
+                        <li><a href="#contect">Contect Us</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="name">
+            <h1>Organic Food is Good for Health</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur quas placeat neque natus,
+                facere exercitationem et deleniti atque laborum!</p>
+            <div class="btn">
+                <button class="btn1">Product</button>
+                <button class="btn2">Servises</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <img src="/image/child.webp" alt="">
+        <h1 class="sub-heading">About</h1>
+        <div class="about-box">
+            <div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde sed facilis
+                    nobis voluptates sapiente omnis at ab dicta porro, facere laboriosam hic reiciendis, veniam
+                    explicabo maiores possimus fugit fuga minima. Eos, expedita quam? Quis magnam, quae, delectus cumque
+                    ratione libero sed modi asperiores saepe sint similique esse et
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic deleniti commodi fugit perferendis aut
+                    neque aliquam vitae cum? Placeat, aliquid culpa voluptatibus nisi exercitationem et praesentium
+                    magnam earum tempore sint facere voluptate, officiis consequatur a mollitia reiciendis non
+                    dignissimos nesciunt expedita eos vitae laboriosam nulla nam! Necessitatibus maxime blanditiis
+                    earum. <span id="read">Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Explicabo repellendus aut fuga iure vel, delectus
+                        cupiditate fugiat odio, totam non, neque libero suscipit consequatur doloremque. Eligendi
+                        deleniti autem magnam vel enim veritatis inventore quam incidunt qui, sequi excepturi officiis
+                        repellat mollitia quia eius dicta fugiat ipsa maxime dignissimos eum magni velit sapiente, ullam
+                        perferendis? Laudantium porro tempora aspernatur, ullam reprehenderit, facilis doloribus nam
+                        ipsa debitis sunt consectetur? Unde quo distinctio aliquid quod. Quidem repellendus asperiores
+                        rerum quae consequuntur voluptatibus eum voluptas, aperiam facere quaerat provident. Maxime,
+                        recusandae, saepe possimus aspernatur mollitia eaque magni suscipit quisquam adipisci voluptas
+                        neque esse obcaecati.</span></span>
+            </div>
+            <div>
+            <button class="btn1" id="abuttom" onclick="ToggleHide()">Read more</button></div>
+        </div>
+    </section>
+    <section class="feature" id="feature">
+        <h1 class="sub-heading">Our Feature</h1>
+        <div class="feature-container">
+            <div class="feature-box">
+                <img src="/image/pizza.png" alt="">
+                <h2 class="s-sub-heading">Natural Process</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque repellat blanditiis suscipit
+                    nesciunt ab ipsam officia voluptatum quisquam nobis! Autem quibusdam aut ipsum fuga maiores
+                    excepturi sed odit quod, dignissimos, ipsam iste vero natus soluta cupiditate maxime nesciunt
+                    quidem.</p>
+            </div>
+            <div class="feature-box">
+                <img src="/image/pizza.png" alt="">
+                <h2 class="s-sub-heading">Organic Product</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque repellat blanditiis
+                    suscipit nesciunt ab ipsam officia voluptatum quisquam nobis! Autem quibusdam aut ipsum fuga
+                    maiores excepturi sed odit quod, dignissimos, ipsam iste vero natus soluta cupiditate maxime
+                    nesciunt quidem.</p>
+            </div>
+            <div class="feature-box">
+                <img src="/image/pizza.png" alt="">
+                <h2 class="s-sub-heading">Biologycally Safe</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque repellat blanditiis
+                    suscipit nesciunt ab ipsam officia voluptatum quisquam nobis! Autem quibusdam aut ipsum fuga
+                    maiores excepturi sed odit quod, dignissimos, ipsam iste vero natus soluta cupiditate maxime
+                    nesciunt quidem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product section  -->
+    <div class="product" id="product">
+        <h1 class="sub-heading">Our Products</h1>
+        <div class="product-container">
+            <div class="product-box">
+                <span class="new">
+                    <h2>New</h2>
+                </span>
+                <img src="/image/vegetable-2.jpg" alt="">
+                <h2 class="s-sub-heading">Fresh Tomato</h2>
+                <span>$29.00</span> <span class="under">$49.00</span>
+                <div class="VA-box">
+                    <span class="view">View details</span>
+                    <span class="add">Add to cart</span>
+                </div>
+            </div>
+            <div class="product-box">
+                <span class="new">
+                    <h2>New</h2>
+                </span>
+                <img src="/image/vegetable-2.jpg" alt="">
+                <h2 class="s-sub-heading">Fresh Tomato</h2>
+                <span>$29.00</span> <span class="under">$49.00</span>
+                <div class="VA-box">
+                    <span class="view">View details</span>
+                    <span class="add">Add to cart</span>
+                </div>
+            </div>
+            <div class="product-box">
+                <span class="new">
+                    <h2>New</h2>
+                </span>
+                <img src="/image/vegetable-2.jpg" alt="">
+                <h2 class="s-sub-heading">Fresh Tomato</h2>
+                <span>$29.00</span> <span class="under">$49.00</span>
+                <div class="VA-box">
+                    <span class="view">View details</span>
+                    <span class="add">Add to cart</span>
+                </div>
+            </div>
+            <div class="product-box">
+                <span class="new">
+                    <h2>New</h2>
+                </span>
+                <img src="/image/vegetable-2.jpg" alt="">
+                <h2 class="s-sub-heading">Fresh Tomato</h2>
+                <span>$29.00</span> <span class="under">$49.00</span>
+                <div class="VA-box">
+                    <span class="view">View details</span>
+                    <span class="add">Add to cart</span>
+                </div>
+            </div>
+            <div class="product-box">
+                <span class="new">
+                    <h2>New</h2>
+                </span>
+                <img src="/image/vegetable-2.jpg" alt="">
+                <h2 class="s-sub-heading">Fresh Tomato</h2>
+                <span>$29.00</span> <span class="under">$49.00</span>
+                <div class="VA-box">
+                    <span class="view">View details</span>
+                    <span class="add">Add to cart</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Client section  -->
+    <section class="client" id="client">
+        <h1 class="sub-heading">Our Clients</h1>
+        <div class="client-container">
+            <div class="A client-box">
+                <img src="/image/Amazon logo.png" alt="">
+            </div>
+            <div class="a client-box">
+                <img src="/image/apple logo.png" alt="">
+            </div>
+            <div class="h client-box">
+                <img src="/image/hp logo.png" alt="">
+            </div>
+            <div class="i client-box">
+                <img src="/image/Instragram logo.png" alt="">
+            </div>
+            <div class="t client-box">
+                <img src="/image/Twitter logo.png" alt="">
+            </div>
+            <div class="s client-box">
+                <img src="/image/Samsung logo.png" alt="">
+            </div>
+            <div class="f client-box">
+                <img src="/image/Facebook logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- contect section  -->
+    <section class="contect" id="contect">
+        <h1 class="sub-heading">Contect Us</h1>
+        <div class="contect-box">
+            <form action="#">
+                <div class="from-group">
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="from-group">
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="from-group">
+                    <label for="phone">Phone No.: </label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="from-group">
+                    <label for="feedback">Feedback : </label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                </div>
+               
+                    <input type="submit" class="submit">
+               
+
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer>
+        <h4>Copyright&copy;www.organicfood.com . All rights reserved.</h4>
+    </footer>
+</body>
+
+</html>

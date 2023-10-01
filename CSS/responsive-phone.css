@@ -1,0 +1,11 @@
+.navigation .nav li{
+    margin: 14px 3px;
+}
+.navigation .nav li a {
+    padding: 1px 1.5px;
+     
+}
+
+.nav .Feature{
+    display: none;
+}
